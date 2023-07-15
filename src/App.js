@@ -35,7 +35,7 @@ function App() {
           <div className="flex flex-col">
             <div className="h-fit text-center p-5 text-white flex flex-col gap-7">
               <p className="font-roberto text-2xl sm:text-6xl text-yellow-400 tracking-wide font-bold"> Travel Finder Tours </p>
-              <p className="font-roberto text-3xl text-lime-400 tracking-wide"> "Travel beyond boundaries, broaden your horizons." </p>
+              <p className="font-roberto text-3xl text-lime-400 tracking-wide"> "Travel beyond boundaries, broaden your horizons" </p>
             </div>
             <div className="h-fit text-center mt-10">
               <p className="font-usui text-3xl text-white"> Coming Soon </p>
