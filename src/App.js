@@ -8,7 +8,7 @@ import { FaTiktok } from 'react-icons/fa';
 function App() {
 
   const sendMail = () => {
-    window.location.href = "mailto:mail@example.org";    
+    window.location.href = "mailto:vijayed7@gmail.com";    
   }
 
   return (
