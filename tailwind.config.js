@@ -9,6 +9,12 @@ module.exports = {
         'roberto': 'Roboto',
         'chela': 'Chela One',
         'usui': 'Cedarville Cursive'
+      },
+      colors: {
+        'gre': '#abcb13',
+        'ora': '#f28704',
+        'yel': '#fbca04',
+        'tra': '#fcd536'
       }
     },
   },
