@@ -34,7 +34,35 @@ code {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('./assets/monks.jpeg');;
+  background: url('./assets/monks.jpeg');
   background-size: cover;
   background-position: right;
+}
+
+.flight-info {
+  background: url('./assets/route_map.jpeg');
+}
+
+#cultural-tours {
+  background: url('./assets/cultural_tours.jpeg');
+  background-size: cover;
+  background-position: bottom;
+}
+
+#trekking-tours {
+  background: url('./assets/trekking_tours.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+#honeymoon-tours {
+  background: url('./assets/festival_tours.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+#special-packages {
+  background: url('./assets/special_packages.jpeg');
+  background-size: cover;
+  background-position: bottom;
 }
