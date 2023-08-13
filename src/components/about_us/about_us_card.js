@@ -64,14 +64,14 @@ function AboutUsCard() {
         <>
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-            <div className="flex mx-10 md:ml-44 md:mr-0 flex-grow bg-neutral-100 border-l-8 border border-s-gre drop-shadow-2xl">
-                <div className="basis-2/3 flex flex-col justify-center items-center overflow-hidden shadow-inner">
+            <div className="flex md:flex-col lg:flex-row mx-10 lg:ml-44 lg:mr-0 flex-grow bg-neutral-100 border-l-8 border border-s-gre drop-shadow-2xl">
+                <div className="lg:basis-2/3 flex flex-col justify-center items-center overflow-hidden shadow-inner">
                     {
                         slider_details.map((item, index) => {
                             return <AboutUsSlider item={item} index={index} hello={activeIndex} />;
                         })
                     }
-                    <div className='basis-1/12 justify-self-end flex justify-center'>
+                    <div className='basis-1/12 justify-self-end flex justify-center sm:p-5 lg:p-0'>
                         {
                             slider_details.map((item, index) => {
                                 return (
@@ -86,7 +86,7 @@ function AboutUsCard() {
                         }
                     </div>
                 </div>
-                <div className="basis-1/3">
+                <div className="md:order-first lg:order-none lg:basis-1/3">
                     <img src={vijay_daju} alt="Travel Finder Tours Bhutan" className='w-full' />
                 </div>
             </div>

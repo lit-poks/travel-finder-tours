@@ -7,7 +7,7 @@ function AboutUs() {
         <>
             <div id="image-container" className='flex flex-col'>
                 <Navbar />
-                <div className='flex flex-grow justify-end items-center'>
+                <div className='flex flex-grow items-center justify-center'>
                     < AboutUsCard />
                 </div>
                 <a href="https://wa.me/+97517937798" target="_blank">

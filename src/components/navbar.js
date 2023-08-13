@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <>
             <div className="backdrop-blur">
-                <div className="container mx-auto">
+                <div className="sm:px-4 lg:container lg:mx-auto">
                     <div className='h-44'>
                         <div className="flex justify-between items-end h-full">
                             <Link to='/' className='flex justify-center items-center shadow shadow-ora shrink border-2 border-ora/100 text-white w-40 h-1/4 mb-16 text-lg font-semibold hover:bg-ora hover:scale-105'>

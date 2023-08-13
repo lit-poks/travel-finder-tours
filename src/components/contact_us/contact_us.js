@@ -17,7 +17,7 @@ function ContactUs() {
             <div id="image-container" className='flex flex-col'>
                 <Navbar />
                 <div className='mx-auto flex-grow md:container'>
-                    <div className="flex flex-row-reverse h-full">
+                    <div className="flex md:flex-row md:justify-center md:items-center lg:flex-row-reverse lg:justify-start h-full">
                         <div className="pt-4 md:pt-0 flex justify-center items-center">
                             <ContactUsCard modalHidden={modelHidden} hideModal={hideModal}/>
                         </div>
