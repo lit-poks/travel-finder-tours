@@ -8,13 +8,17 @@ import TourPackages from './components/packages/tour_packages.js';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Homepage />}/>
-      <Route path="/contact-us" element={<ContactUs/>}/>
-      <Route path="/about-us" element={<AboutUs/>}/>
-      <Route path="/packages" element={<TourPackages/>}/>
-      <Route path="*" element={<Homepage />}/>
-    </Routes>
+    <>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" />
+
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/packages" element={<TourPackages />} />
+        <Route path="*" element={<Homepage />} />
+      </Routes>
+    </>
   );
 }
 

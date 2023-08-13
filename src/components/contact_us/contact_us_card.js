@@ -13,8 +13,6 @@ function ContactUsCard({ modalHidden, hideModal }) {
     }
     return (
         <>
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" />
-
             <div className='md:max-w-lg h-fit flex flex-row items-center justify-center bg-[#FFFBFB] rounded-lg shadow-xl'>
                 <div className="flex flex-col items-center justify-center">
                     <div className="py-8">

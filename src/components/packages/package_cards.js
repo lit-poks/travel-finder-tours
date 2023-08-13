@@ -43,7 +43,7 @@ function PackageCards() {
                 onClick={toggleTrekkingAndFishingModal}
                     className="group flex items-end justify-center flex-grow w-40 max-w-xl max-h-[rem] m-4 rounded-lg shadow hover:scale-90 hover:duration-150 cursor-pointer">
                     <h1 className="group-hover:-translate-y-12 group-hover:duration-300">
-                        Trekking & Fishing Tours
+                        Adventure Tours
                     </h1>
 
                 </div>

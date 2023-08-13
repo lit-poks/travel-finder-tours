@@ -17,7 +17,7 @@ function TrekkingAndFishingModal({ trekkingAndFishingModal, toggleTrekkingAndFis
                 <div className="bg-white rounded-lg shadow h-fit max-w-2xl">
                     <div className="flex justify-center items-center p-4 shadow">
                         <h3 className="flex-grow text-center text-xl font-semibold text-gray-900">
-                            Trekking and Fishing Tours
+                            Adventure Tours
                         </h3>
                         <button type="button" onClick={() => {
                             toggleTrekkingAndFishingModal()

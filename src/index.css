@@ -37,6 +37,7 @@ code {
   background: url('./assets/homepage.jpeg');
   background-size: cover;
   background-position: center;
+  overflow-y: auto;
 }
 
 .flight-info {
@@ -64,5 +65,5 @@ code {
 #special-packages {
   background: url('./assets/special_packages.jpeg');
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
 }
