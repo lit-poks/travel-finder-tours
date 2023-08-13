@@ -7,11 +7,11 @@ function Homepage() {
             <div id="image-container" className="flex flex-col">
                 <Navbar />
                 <div className='flex flex-grow container mx-auto'>
-                    <div className='flex flex-grow flex-col justify-center items-start lg:mb-10'>
+                    <div className='flex flex-grow flex-col justify-center items-start mb-24'>
                         <div className="">
                             <div className="text-6xl text-white">
                                 <span className="text-ora">Travel </span>
-                                <span className="text-gre">Finder </span>
+                                <span className="text-white">Finder </span>
                                 <span className="text-ora">Tours </span>
                             </div>
                             <p className="text-3xl text-grey text-center">"Absolute Happiness"</p>
