@@ -6,9 +6,9 @@ function Homepage() {
         <>
             <div id="image-container" className="flex flex-col">
                 <Navbar />
-                <div className='container mx-auto'>
-                    <div className='flex flex-col justify-end items-start h-96 ml-20 md:mt-32 lg:mt-0'>
-                        <div className="w-fit lg:mb-20 2xl:mb-0">
+                <div className='flex flex-grow container mx-auto'>
+                    <div className='flex flex-grow flex-col justify-center items-start lg:mb-10'>
+                        <div className="">
                             <div className="text-6xl text-white">
                                 <span className="text-ora">Travel </span>
                                 <span className="text-gre">Finder </span>

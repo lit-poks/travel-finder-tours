@@ -15,7 +15,7 @@ function ContactUsCard({ modalHidden, hideModal }) {
         <>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" />
 
-            <div className='mx-10 mb-64 md:m-0 md:max-w-lg  h-fit flex flex-row items-center justify-center bg-[#FFFBFB] rounded-lg shadow-xl'>
+            <div className='md:max-w-lg h-fit flex flex-row items-center justify-center bg-[#FFFBFB] rounded-lg shadow-xl'>
                 <div className="flex flex-col items-center justify-center">
                     <div className="py-8">
                         <h1 className="text-center md:text-left text-2xl font-bold text-gray-900">Contact Us</h1>
