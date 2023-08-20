@@ -29,17 +29,26 @@ code {
 }
 
 #image-container {
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: url('./assets/ta_dzong.jpeg');
   background-size: cover;
   background-position: center;
   overflow-y: auto;
 }
 
+#vision-container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: url('./assets/bridge_photo.jpeg');
+  background-size: cover;
+  background-position: center;
+  overflow-y: auto;
+}
 .flight-info {
   background: url('./assets/route_map.jpeg');
 }
