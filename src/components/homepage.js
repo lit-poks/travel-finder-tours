@@ -2,6 +2,7 @@ import Navbar from "./navbar";
 import whattsapp from '../assets/whattsapp.png'
 import VisionMission from "./homepage_components/vision_mission";
 import IconicDestinations from "./homepage_components/iconic_destinations";
+import Footer from "./footer";
 
 function Homepage() {
     return (
@@ -28,6 +29,7 @@ function Homepage() {
             </div>
             <VisionMission />
             <IconicDestinations />
+            <Footer/>
         </>
     )
 }
