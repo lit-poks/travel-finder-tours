@@ -1,7 +1,7 @@
 import Navbar from "../navbar";
 import whattsapp from '../../assets/whattsapp.png'
 import PackageCards from "./package_cards";
-import CulturalTours from "./cultural/cultural_tours";
+import CulturalItenaries from "./cultural/cultural_itenaries";
 
 
 function TourPackages() {
@@ -16,7 +16,7 @@ function TourPackages() {
                     <img className="animate-pulse absolute bottom-10 right-10 h-16 rounded-full hover:scale-110 hover:animate-none" src={whattsapp} alt="Travel Finder Tours Whatts App" />
                 </a>
             </div>
-            
+            <CulturalItenaries />
         </>
     )
 }
