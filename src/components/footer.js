@@ -25,7 +25,7 @@ function Footer() {
                           <a href="http://www.tiktok.com/@travelfindertours_bhutan" className="hover:underline">Tik Tok</a>
                       </li>
                       <li className='mb-4'>
-                          <a href="https://wa.me/+97517937798" className="hover:underline">Whatts App</a>
+                          <a href="https://wa.me/+97517937798" className="hover:underline">WhatsApp</a>
                       </li>
                   </ul>
               </div>
@@ -53,7 +53,7 @@ function Footer() {
                           <a href="https://abto.org.bt/" target='_blank' className="hover:underline">ABTO</a>
                       </li>
                       <li className="mb-4">
-                          <a href="https://bhutan.travel/" target='_blank' className="hover:underline">Tourism Counsil of Bhutan</a>
+                          <a href="https://bhutan.travel/" target='_blank' className="hover:underline">Department of Tourism</a>
                       </li>
                       <li className="mb-4">
                           <a href="https://www.drukair.com.bt/" target='_blank' className="hover:underline">Druk Air</a>
