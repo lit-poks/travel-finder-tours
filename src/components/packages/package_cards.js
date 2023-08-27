@@ -4,18 +4,20 @@ import HoneymoonModal from './honeymoon/honeymoon_modal';
 import SpecialPackageModal from './special/special_package_modal';
 import TrekkingAndFishingModal from './trekking/trekking_and_fishing_modal';
 
-function PackageCards() {
+function PackageCards({togglePackage}) {
     const [honeyMoonModal, setHoneyMoonModal] = useState(true);
     const [culturalTourModal, setCulturalTourModal] = useState(true);
     const [trekkingAndFishingModal, setTrekkingAndFishingModal] = useState(true);
     const [specialPackagesModal, setSpecialPackagesModal] = useState(true);
 
     const toggleCulturalTourModal = () => {
-        setCulturalTourModal(!culturalTourModal)
+        // setCulturalTourModal(!culturalTourModal)
+        togglePackage('Cultural')
     }
 
     const toggleTrekkingAndFishingModal = () => {
-        setTrekkingAndFishingModal(!trekkingAndFishingModal)
+        // setTrekkingAndFishingModal(!trekkingAndFishingModal)
+        togglePackage('Adventure')
     }
 
     const toggleSpecialPackagesModal = () => {
@@ -23,7 +25,8 @@ function PackageCards() {
     }
 
     const toggleHoneyMoonModal = () => {
-        setHoneyMoonModal(!honeyMoonModal)
+        // setHoneyMoonModal(!honeyMoonModal)
+        togglePackage('Honeymoon')
     }
     return (
         <>

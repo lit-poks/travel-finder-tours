@@ -102,3 +102,40 @@ code {
     overflow-y: auto;
   }
 }
+
+#honeymoon-container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: url('./assets/honeymoon_cover.jpeg');
+  background-size: cover;
+  background-position: center;
+  overflow-y: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  #honeymoon-container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65vh;
+    background: url('./assets/honeymoon_cover.jpeg');
+    background-size: cover;
+    background-position: center;
+    overflow-y: auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #honeymoon-container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url('./assets/honeymoon_cover.jpeg');
+    background-size: cover;
+    background-position: center;
+    overflow-y: auto;
+  }
+}

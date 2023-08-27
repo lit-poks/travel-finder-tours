@@ -1,4 +1,8 @@
 import cham from '../../../assets/cham.jpeg'
+import painting from '../../../assets/painting.jpeg'
+import mountain_fest from '../../../assets/mountain_fest.jpeg'
+import little_girl from '../../../assets/little_girl.jpeg'
+import crowd from '../../../assets/crowd.jpeg'
 
 function CulturalItenaries() {
     return (
@@ -10,7 +14,7 @@ function CulturalItenaries() {
             {/* 4 N 5 D */}
             <div className="container mx-auto flex md:flex-col lg:flex-row lg:mt-5 border border-gray-200 rounded-lg shadow mb-32">
                 <div className='basis-1/2 lg:mr-8 flex justify-start items-center'>
-                    <img src={cham} alt="Masked Dance" className='rounded-t-lg rounded-l-lg w-full h-full object-cover' />
+                    <img src={painting} alt="Masked Dance" className='rounded-t-lg rounded-l-lg w-full h-full object-cover' />
                 </div>
 
 
@@ -70,7 +74,7 @@ function CulturalItenaries() {
             {/* 5 N 6 D */}
             <div className="container mx-auto flex md:flex-col lg:flex-row lg:mt-5 border border-gray-200 rounded-lg shadow mb-32">
                 <div className='basis-1/2 lg:mr-8 flex justify-start items-center'>
-                    <img src={cham} alt="Masked Dance" className='rounded-t-lg rounded-l-lg w-full h-full object-cover' />
+                    <img src={mountain_fest} alt="Masked Dance" className='rounded-t-lg rounded-l-lg w-full h-full object-cover' />
                 </div>
 
 
@@ -138,7 +142,7 @@ function CulturalItenaries() {
             {/* 6 N 7 D */}
             <div className="container mx-auto flex md:flex-col lg:flex-row lg:mt-5 border border-gray-200 rounded-lg shadow mb-32">
                 <div className='basis-1/2 lg:mr-8 flex justify-start items-center'>
-                    <img src={cham} alt="Masked Dance" className='rounded-t-lg rounded-l-lg w-full h-full object-cover' />
+                    <img src={little_girl} alt="Masked Dance" className='rounded-t-lg rounded-l-lg w-full h-full object-cover' />
                 </div>
 
 
@@ -202,7 +206,91 @@ function CulturalItenaries() {
                                 <time class="mb-1 text-sm font-normal leading-none text-gray-400">Day 7</time>
                                 <h3 class="text-lg font-semibold text-gray-900">Departure/Farewell</h3>
                                 <p class="text-base font-normal text-gray-500">
-                                Depending on the flight schedule Morning transfer to the airport for flight to onward destination
+                                    Depending on the flight schedule Morning transfer to the airport for flight to onward destination
+                                </p>
+                            </li>
+                        </ol>
+
+                    </div>
+                </div>
+            </div>
+
+            {/* 7 N 8 D */}
+            <div className="container mx-auto flex md:flex-col lg:flex-row lg:mt-5 border border-gray-200 rounded-lg shadow mb-32">
+                <div className='basis-1/2 lg:mr-8 flex justify-start items-center'>
+                    <img src={crowd} alt="Masked Dance" className='rounded-t-lg rounded-l-lg w-full h-full object-cover' />
+                </div>
+
+
+                <div className="basis-1/2 flex flex-col">
+                    <div className='text-center p-5 border-b'>
+                        <h5 class="text-2xl font-bold tracking-tight text-gray-900">7 Nights | 8 Days</h5>
+                    </div>
+
+                    <div className="max-h-[26rem] overflow-y-auto text-lg text-gray-700 p-5 lg:py-0">
+                        <ol class="relative border-l border-gray-200">
+                            <li class="mb-10 ml-4">
+                                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+                                <time class="mb-1 text-sm font-normal leading-none text-gray-400">Day 1</time>
+                                <h3 class="text-lg font-semibold text-gray-900 ">Arrive at Paro International airport</h3>
+                                <p class="mb-4 text-base font-normal text-gray-500 ">
+                                    Meeting & assistance on arrival and transfer to designated Hotel. Evening take a short stroll nearby hotel. Night halt at Paro.
+                                </p>
+                            </li>
+                            <li class="mb-10 ml-4">
+                                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+                                <time class="mb-1 text-sm font-normal leading-none text-gray-400">Day 2</time>
+                                <h3 class="text-lg font-semibold text-gray-900 ">Paro Sightseeing</h3>
+                                <p class="text-base font-normal text-gray-500 ">
+                                    Morning visit Drukgyel Dzong meaning victory fortress from where Bhutanese repelled several Tibetan invasion. On a clear day, there is splendid view of Mt. Jomolhari from the approach road to this Dzong. Later visit Ta Dzong (National Museum) and walk down the trail to visit Rinpung Dzong, the fortress which has a long and fascinating history. Evening visit Kyichu Lhakhang, one of the oldest and most sacred shrines of the Kingdom. Night halt at Paro.
+                                </p>
+                            </li>
+                            <li class="mb-10 ml-4">
+                                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+                                <time class="mb- text-sm font-normal leading-none text-gray-400">Day 3</time>
+                                <h3 class="text-lg font-semibold text-gray-900">Thimphu</h3>
+                                <p class="text-base font-normal text-gray-500">
+                                    Morning drive to Thimphu en route visit Semtokha Dzong, the oldest fortress of the Kingdom which now houses the school for religious and cultural studies. Afternoon free for shopping and leisure. Night halt at Paro.
+                                </p>
+                            </li>
+                            <li class="mb-10 ml-4">
+                                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+                                <time class="mb-1 text-sm font-normal leading-none text-gray-400">Day 4</time>
+                                <h3 class="text-lg font-semibold text-gray-900">Wholeday Thimphu Sightseeing</h3>
+                                <p class="text-base font-normal text-gray-500">
+                                    Morning drive to BBS Tower for fascinating view of Thimphu valley and later visit mini zoo, Anim Dratshang (nunnery), National Library, Handmade Paper factory & Memorial Chorten (stupa). Afternoon, as the time permits, visit to School of Arts & Crafts, Textile & Folk Heritage Museum, Zangtho Pelri Lhakhang (Temple) and Handicrafts Emporium. Night halt at Paro.
+                                </p>
+                            </li>
+                            <li class="mb-10 ml-4">
+                                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+                                <time class="mb-1 text-sm font-normal leading-none text-gray-400">Day 5</time>
+                                <h3 class="text-lg font-semibold text-gray-900">Thimphu - Punakha</h3>
+                                <p class="text-base font-normal text-gray-500">
+                                    Morning drive to Punakha taking a short stop at Dochula pass that heralds the most enchanting views of Bhutan. Afternoon visit Punakha Dzong and Khamsum Yulley Namgyal Chorten. Evening free in Fascinating Punakha valley. Overnight Damchen Resort or Similar.
+                                </p>
+                            </li>
+                            <li class="mb-10 ml-4">
+                                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+                                <time class="mb-1 text-sm font-normal leading-none text-gray-400">Day 6</time>
+                                <h3 class="text-lg font-semibold text-gray-900">Rafting along Punatshang Chhu</h3>
+                                <p class="text-base font-normal text-gray-500">
+                                    Morning transfer to the rafting site for rafting experience. Wangduephodrang visiting Dzong and local market. The district of Wangduephodrang is also famous for its bamboo products, slate and stone carvings. Overnight Damchen Resort or Similar.
+                                </p>
+                            </li>
+                            <li class="mb-10 ml-4">
+                                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+                                <time class="mb-1 text-sm font-normal leading-none text-gray-400">Day 7</time>
+                                <h3 class="text-lg font-semibold text-gray-900">Punakha - Paro</h3>
+                                <p class="text-base font-normal text-gray-500">
+                                    Morning transfer to Paro. Afternoon visit to Paro market and a traditional farm house. Overnight Tenzinling Resort or Similar.
+                                </p>
+                            </li>
+                            <li class="mb-10 ml-4">
+                                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+                                <time class="mb-1 text-sm font-normal leading-none text-gray-400">Day 8</time>
+                                <h3 class="text-lg font-semibold text-gray-900">Departure/Farewell</h3>
+                                <p class="text-base font-normal text-gray-500">
+                                    Depending on the flight schedule our representative will escort you to the airport for your onward flight destination.
                                 </p>
                             </li>
                         </ol>
