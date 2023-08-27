@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Navbar from "../navbar";
 import whattsapp from '../../assets/whattsapp.png'
 import PackageCards from "./package_cards";
@@ -9,11 +9,18 @@ import Honeymoon from "./honeymoon/honeymoon";
 
 function TourPackages() {
     const [currentPage, setcurrentPage] = useState('None');
+    const [currentEle, setcurrentEle] = useState('None');
 
-    const togglePackage = (value) => {
-        console.log(currentPage)
+    useEffect(()=> {
+        if(currentEle == 'None') return
+
+        const ele = document.getElementById(currentEle)
+        ele.scrollIntoView()
+    })
+
+    const togglePackage = (value, selectedEle) => {
         setcurrentPage(value)
-        console.log(currentPage)
+        setcurrentEle(selectedEle)
     }
 
     return (

@@ -12,21 +12,22 @@ function PackageCards({togglePackage}) {
 
     const toggleCulturalTourModal = () => {
         // setCulturalTourModal(!culturalTourModal)
-        togglePackage('Cultural')
+        togglePackage('Cultural', 'culturalElement')
     }
 
     const toggleTrekkingAndFishingModal = () => {
         // setTrekkingAndFishingModal(!trekkingAndFishingModal)
-        togglePackage('Adventure')
+        togglePackage('Adventure', 'adventureElement')
     }
 
     const toggleSpecialPackagesModal = () => {
         setSpecialPackagesModal(!specialPackagesModal)
+        togglePackage('None', 'None')
     }
 
     const toggleHoneyMoonModal = () => {
         // setHoneyMoonModal(!honeyMoonModal)
-        togglePackage('Honeymoon')
+        togglePackage('Honeymoon', 'honeymoon-container')
     }
     return (
         <>

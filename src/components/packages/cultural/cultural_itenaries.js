@@ -6,7 +6,7 @@ import crowd from '../../../assets/crowd.jpeg'
 
 function CulturalItenaries() {
     return (
-        <div className="flex flex-col">
+        <div id='culturalElement' className="flex flex-col">
             <div className="flex items-center justify-center">
                 <h1 className="pt-16 pb-8 text-4xl font-semibold"> Know Your Itenaries</h1>
             </div>
