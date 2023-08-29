@@ -26,7 +26,7 @@ function AdventureIteneries() {
                 </div>
             </div>
             <div className="flex items-center justify-center">
-                <h1 className="pt-16 pb-8 text-4xl font-semibold"> Know Your Itenaries</h1>
+                <h1 className="pt-16 pb-8 text-4xl font-semibold">Trekking By Destinations</h1>
             </div>
 
             {/* 12 N 13 D Dagala Trek */}

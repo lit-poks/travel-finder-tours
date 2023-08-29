@@ -26,7 +26,7 @@ function CulturalItenaries() {
                 </div>
             </div>
             <div className="flex items-center justify-center">
-                <h1 className="pt-16 pb-8 text-4xl font-semibold"> Know Your Itenaries</h1>
+                <h1 className="pt-16 pb-8 text-4xl font-semibold">Trip Schedule</h1>
             </div>
 
             {/* 4 N 5 D */}
