@@ -3,10 +3,28 @@ import painting from '../../../assets/painting.jpeg'
 import mountain_fest from '../../../assets/mountain_fest.jpeg'
 import little_girl from '../../../assets/little_girl.jpeg'
 import crowd from '../../../assets/crowd.jpeg'
+import cultural_description from '../../../assets/cultural_description.jpeg'
 
 function CulturalItenaries() {
     return (
         <div id='culturalElement' className="flex flex-col">
+
+            <div id="cultural-container" className="flex flex-col">
+                <div className="flex-grow flex flex-col justify-center items-center">
+                    <div className="backdrop-blur-sm p-8 rounded-full">
+                        <p className="text-8xl text-red-800 tracking-widest"> Cultural Tours</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="container mx-auto flex md:flex-col lg:flex-row lg:pt-5 shadow-xl mt-10">
+                <div className='basis-1/2 lg:mr-8 flex justify-center items-center'>
+                    <img src={cultural_description} alt="Culltural Tours" className='w-full max-h-[26rem] object-cover object-top' />
+                </div>
+                <div className="flex basis-1/2 justify-center items-center text-xl text-grey-800 p-5 md:mt-5 lg:mt-0 lg:py-0">
+                    Embark on a cultural tour of Bhutan and immerse yourself in the unique traditions, customs, and spiritual practices that have been preserved for centuries. Bhutan, also known as the kingdom of Bhutan, is a landlocked country located in the Eastern Himalayas in South Asia. Bhutanese culture is deeply rooted in the country’s rich Buddhist heritage, which has shaped its traditions, customs, and way of life. Bhutan is popularly referred to as the land of happiness and is renowned for its cultural heritage and breathtaking landscapes. Buddhism is the predominant religion in Bhutan, and it plays a central role in the daily lives of the Bhutanese people. While surfing through Bhutan one will know Gross National Happiness and it’s the unique development philosophy, which prioritizes the overall well-being and happiness of its citizens over material wealth. Visiting Bhutan for cultural tour offers you diverse experiences.
+                </div>
+            </div>
             <div className="flex items-center justify-center">
                 <h1 className="pt-16 pb-8 text-4xl font-semibold"> Know Your Itenaries</h1>
             </div>

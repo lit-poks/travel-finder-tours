@@ -139,3 +139,77 @@ code {
     overflow-y: auto;
   }
 }
+
+#cultural-container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: url('./assets/main_cultural.jpeg');
+  background-size: cover;
+  background-position: center;
+  overflow-y: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  #cultural-container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65vh;
+    background: url('./assets/main_cultural.jpeg');
+    background-size: cover;
+    background-position: center;
+    overflow-y: auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #cultural-container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url('./assets/main_cultural.jpeg');
+    background-size: cover;
+    background-position: center;
+    overflow-y: auto;
+  }
+}
+
+#adventure-container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: url('./assets/adventure_description.jpeg');
+  background-size: cover;
+  background-position: center;
+  overflow-y: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  #adventure-container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65vh;
+    background: url('./assets/adventure_description.jpeg');
+    background-size: cover;
+    background-position: center;
+    overflow-y: auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #adventure-container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url('./assets/adventure_description.jpeg');
+    background-size: cover;
+    background-position: center;
+    overflow-y: auto;
+  }
+}

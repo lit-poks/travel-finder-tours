@@ -9,7 +9,7 @@ function Honeymoon() {
             <div id="honeymoon-container" className="flex flex-col">
                 <div className="flex justify-center items-center h-32">
                     <div className="text-5xl font-light text-indigo-700 tracking-widest">
-                        HoneyMoon
+                        Honeymoon
                     </div>
                 </div>
                 <div className="flex-grow flex flex-col justify-center items-center">
@@ -32,7 +32,7 @@ function Honeymoon() {
                     <div className="flex basis-1/2 justify-center items-center text-center  p-5 md:mt-5 lg:mt-0 lg:py-0">
                         <div className='p-12'>
                             <p className='text-5xl text-center text-red-700 mb-3'>
-                                HoneyMoon and Wedding
+                                Honeymoon and Wedding
                             </p>
                             <p>
                                 Any foreigner in the verge of getting married or in a lookout to celebrate honeymoon in Bhutan we the Travel Finder Tours family would like to congratulate both the bride and groom for the prosperous future ahead.

@@ -2,11 +2,29 @@ import cham from '../../../assets/cham.jpeg'
 import horses from '../../../assets/horses.jpeg'
 import mist from '../../../assets/mist.jpeg'
 import mountain from '../../../assets/mountain.jpeg'
+import adventure_description from '../../../assets/adventure_description.jpeg'
+import meadow from '../../../assets/meadow.jpeg'
 
 
 function AdventureIteneries() {
     return (
         <div id='adventureElement' className="flex flex-col">
+            <div id="adventure-container" className="flex flex-col">
+                <div className="flex-grow flex flex-col justify-center items-center">
+                    <div className="backdrop-blur-sm p-8 rounded-full">
+                        <p className="text-8xl text-red-800 tracking-widest">Adventure Tours</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="container mx-auto flex md:flex-col lg:flex-row lg:pt-5 shadow-xl mt-10">
+                <div className='basis-1/2 lg:mr-8 flex justify-center items-center'>
+                    <img src={meadow} alt="Culltural Tours" className='w-full max-h-[26rem] object-cover object-top' />
+                </div>
+                <div className="flex basis-1/2 justify-center items-center text-xl text-grey-800 p-5 md:mt-5 lg:mt-0 lg:py-0">
+                    We welcome you to the mystical and enchanting kingdom of Bhutan. Trekking in Bhutan is usually best undertaken during the spring (March to May) and autumn (September to November) seasons when the weather is favorable, and the skies are clear. All trekking expeditions are accompanied by experienced local guides and support staff that will ensure your safety and provide insights into Bhutanese culture and traditions. The land of happiness provides trekker with a remarkable landscape to explore and immerse oneself completely. Trekking enthusiast can prepare oneself for an incredible trekking adventure through breathtaking landscapes, ancient monasteries, and remote villages. Bhutan, nestled in the eastern Himalayas, offers a truly unique experience for trekkers with its pristine nature, rich cultural heritage, and warm hospitality.
+                </div>
+            </div>
             <div className="flex items-center justify-center">
                 <h1 className="pt-16 pb-8 text-4xl font-semibold"> Know Your Itenaries</h1>
             </div>
@@ -144,7 +162,7 @@ function AdventureIteneries() {
 
                 <div className="basis-1/2 flex flex-col">
                     <div className='text-center p-5 border-b'>
-                        <h5 class="text-2xl font-bold tracking-tight text-gray-900"> Druk Path Trek | ( 8 Nights | 9 Days )</h5>
+                        <h5 class="text-2xl font-bold tracking-tight text-gray-900"> Druk Path Trek | ( 6 Days | 5 Nights )</h5>
                     </div>
 
                     <div className="max-h-[26rem] overflow-y-auto text-lg text-gray-700 p-5 lg:py-0">
@@ -152,81 +170,49 @@ function AdventureIteneries() {
                             <li class="mb-10 ml-4">
                                 <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
                                 <time class="mb-1 text-sm font-normal leading-none text-gray-400">Day 1</time>
-                                <h3 class="text-lg font-semibold text-gray-900 ">Arrive in Paro</h3>
+                                <h3 class="text-lg font-semibold text-gray-900 ">Jele Dzong (Start of Trek)</h3>
                                 <p class="mb-4 text-base font-normal text-gray-500 ">
-                                    The flight to Paro is very thrilling and is full of excitement. Our representatives will present themselves at Paro airport. Lunch – afternoon sightseeing includes; Ta dzong presently serves as National Musuem and then followed by Paro Dzong and currently serves as the district administration centre. Later walk to the beauitful wooden bridge that connects to the main giving people easy access. Night halt in paro
+                                    After a short drive to the Ta Dzong (National Museum) in Paro, begin your trek from the historic Ta Dzong. Then we trek uphill through forests of blue pine trees, enjoying panoramic views of Paro Valley and then reach the campsite near Jele Dzong, an ancient fortress with a small temple.
                                 </p>
                             </li>
                             <li class="mb-10 ml-4">
                                 <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
                                 <time class="mb-1 text-sm font-normal leading-none text-gray-400">Day 2</time>
-                                <h3 class="text-lg font-semibold text-gray-900 ">Famous Taktsang Hike</h3>
+                                <h3 class="text-lg font-semibold text-gray-900 ">Jele Dzong - Jangchulakha</h3>
                                 <p class="text-base font-normal text-gray-500 ">
-                                    After early breakfast hike to Taktshang Monastery. It is worth hiking for it is also known as the birth place of Buddhism. The uphill hike takes 3 to 4 hours and sometime even lessed depending on the fitness of the hikers. The Monastery is built on a sheer cliff face 900 m aboue the valley is a breathtaking sight.
+                                    Start the day with a climb to Jele La Pass (3,400m), offering breathtaking views of snow-capped peaks. Next we descend through rhododendron forests and reach the campsite at Jangchulakha, a beautiful meadow.
                                 </p>
                             </li>
                             <li class="mb-10 ml-4">
                                 <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
                                 <time class="mb-1 text-sm font-normal leading-none text-gray-400">Day 3</time>
-                                <h3 class="text-lg font-semibold text-gray-900">Paro to Jele Dzong</h3>
+                                <h3 class="text-lg font-semibold text-gray-900">Jangchulakha - Jimilangtsho*</h3>
                                 <p class="text-base font-normal text-gray-500">
-                                    Trek Begins. The journey starts with a climb up to Jele Dzong that is about 8 kms upward hike
+                                    Trek through more rhododendron forests and yak pastures. Next we cross the Jimilangtsho Lake, known for its giant trout and stunning surroundings, and then Camp near the lake, with a chance to spot birds and maybe even Himalayan yaks.
                                 </p>
                             </li>
                             <li class="mb-10 ml-4">
                                 <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
                                 <time class="mb-1 text-sm font-normal leading-none text-gray-400">Day 4</time>
-                                <h3 class="text-lg font-semibold text-gray-900">Jele Dzong to Jangchulakha</h3>
+                                <h3 class="text-lg font-semibold text-gray-900">Jimilangtsho - Simkota Lake</h3>
                                 <p class="text-base font-normal text-gray-500">
-
+                                    Ascend to the highest point of the trek, the Simkota La Pass (4,110m), offering spectacular mountain vistas and then descend to Simkota Lake, where you can enjoy serene views and camp amidst the tranquility.
                                 </p>
                             </li>
                             <li class="mb-10 ml-4">
                                 <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
                                 <time class="mb-1 text-sm font-normal leading-none text-gray-400">Day 5</time>
-                                <h3 class="text-lg font-semibold text-gray-900">Jangchulakha to Jimilangtso</h3>
+                                <h3 class="text-lg font-semibold text-gray-900">Simkota Lake - Phajoding</h3>
                                 <p class="text-base font-normal text-gray-500">
-
+                                    Trek through dwarf rhododendron trees before reaching Phume La Pass (4,210m). Next we descend to the monastic complex of Phajoding, which houses a beautiful monastery. Explore the monastery and camp nearby.
                                 </p>
                             </li>
                             <li class="mb-10 ml-4">
                                 <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
                                 <time class="mb-1 text-sm font-normal leading-none text-gray-400">Day 6</time>
-                                <h3 class="text-lg font-semibold text-gray-900">Jimilangtso to Semtokha</h3>
+                                <h3 class="text-lg font-semibold text-gray-900">Phajoding - Thimphu (End of Trek)</h3>
                                 <p class="text-base font-normal text-gray-500">
-
-                                </p>
-                            </li>
-                            <li class="mb-10 ml-4">
-                                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
-                                <time class="mb-1 text-sm font-normal leading-none text-gray-400">Day 7</time>
-                                <h3 class="text-lg font-semibold text-gray-900">Semtokha to Phajoding</h3>
-                                <p class="text-base font-normal text-gray-500">
-
-                                </p>
-                            </li>
-                            <li class="mb-10 ml-4">
-                                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
-                                <time class="mb-1 text-sm font-normal leading-none text-gray-400">Day 8</time>
-                                <h3 class="text-lg font-semibold text-gray-900">Phajoding to Thimphu</h3>
-                                <p class="text-base font-normal text-gray-500">
-
-                                </p>
-                            </li>
-                            <li class="mb-10 ml-4">
-                                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
-                                <time class="mb-1 text-sm font-normal leading-none text-gray-400">Day 9</time>
-                                <h3 class="text-lg font-semibold text-gray-900">Capital sightseeing and drive to Paro</h3>
-                                <p class="text-base font-normal text-gray-500">
-
-                                </p>
-                            </li>
-                            <li class="mb-10 ml-4">
-                                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
-                                <time class="mb-1 text-sm font-normal leading-none text-gray-400">Day 10</time>
-                                <h3 class="text-lg font-semibold text-gray-900">Departure</h3>
-                                <p class="text-base font-normal text-gray-500">
-
+                                    Descend through pine forests to Motithang, where your trek ends. Next we will visit the iconic Tashichho Dzong, the seat of Bhutan's government and monastic order. In the evening we transfer to your hotel in Thimphu, the capital city, and explore its vibrant markets and landmarks.
                                 </p>
                             </li>
                         </ol>
