@@ -4,6 +4,9 @@ import ComingSoon from './components/coming_soon.js'
 import ContactUs from './components/contact_us/contact_us.js';
 import Homepage from './components/homepage'
 import TourPackages from './components/packages/tour_packages.js';
+import { inject } from '@vercel/analytics';
+ 
+inject();
 
 
 function App() {
