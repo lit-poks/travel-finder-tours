@@ -4,6 +4,7 @@ import ComingSoon from './components/coming_soon.js'
 import ContactUs from './components/contact_us/contact_us.js';
 import Homepage from './components/homepage'
 import TourPackages from './components/packages/tour_packages.js';
+import AdventurePackages from './components/packages/trekking/adventure_packages.js';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/packages" element={<TourPackages />} />
+        <Route path="/adventure" element={<AdventurePackages />} />
         <Route path="*" element={<Homepage />} />
       </Routes>
     </>
