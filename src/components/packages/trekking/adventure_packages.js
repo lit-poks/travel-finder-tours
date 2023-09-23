@@ -5,6 +5,8 @@ import AdventureCards from "./adventure_cards";
 import { useEffect, useState } from "react";
 import RaftingItenaries from "./rafting_itenaries";
 import BikingItenaries from "./biking_itenaries";
+import FishingItenaries from "./fishing_itenaries";
+import CyclingItenaries from "./cycling_itenaries";
 
 function AdventurePackages() {
     const [currentPage, setcurrentPage] = useState('None');
@@ -39,6 +41,12 @@ function AdventurePackages() {
             }
             {
                 currentPage == 'Biking' && <BikingItenaries/>
+            }
+            {
+                currentPage == 'Fishing' && <FishingItenaries/>
+            }
+            {
+                currentPage == 'Cycling' && <CyclingItenaries/>
             }
             <Footer />
         </>

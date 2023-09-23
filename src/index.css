@@ -89,6 +89,18 @@ code {
   background-position: left;
 }
 
+#fishing {
+  background: url('./assets/fishing_main.jpeg');
+  background-size: cover;
+  background-position: left;
+}
+
+#cycling {
+  background: url('./assets/cycling_main.jpeg');
+  background-size: cover;
+  background-position: top;
+}
+
 @media only screen and (min-width: 768px) {
   #vision-container {
     top: 0;
@@ -294,6 +306,80 @@ code {
     width: 100%;
     height: 100vh;
     background: url('./assets/biking_container.jpeg');
+    background-size: cover;
+    background-position: right;
+    overflow-y: auto;
+  }
+}
+
+#fishing-container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: url('./assets/fishing_main.jpeg');
+  background-size: cover;
+  background-position: right;
+  overflow-y: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  #fishing-container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65vh;
+    background: url('./assets/fishing_main.jpeg');
+    background-size: cover;
+    background-position: right;
+    overflow-y: auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #fishing-container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url('./assets/fishing_main.jpeg');
+    background-size: cover;
+    background-position: right;
+    overflow-y: auto;
+  }
+}
+
+#cycling-container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: url('./assets/cycling_container.webp');
+  background-size: cover;
+  background-position: right;
+  overflow-y: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  #cycling-container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65vh;
+    background: url('./assets/cycling_container.webp');
+    background-size: cover;
+    background-position: right;
+    overflow-y: auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #cycling-container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url('./assets/cycling_container.webp');
     background-size: cover;
     background-position: right;
     overflow-y: auto;

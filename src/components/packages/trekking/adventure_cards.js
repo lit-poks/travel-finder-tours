@@ -6,6 +6,12 @@ function AdventureCards({togglePackage}) {
     const toggleBiking = () => {
         togglePackage('Biking', 'bikingElement')
     }
+    const toggleFishing = () => {
+        togglePackage('Fishing', 'fishingElement')
+    }
+    const toggleCycling = () => {
+        togglePackage('Cycling', 'cyclingElement')
+    }
     return(
         <>
             <div className="flex flex-grow justify-center text-white font-bold text-2xl p-2 ">
@@ -26,16 +32,16 @@ function AdventureCards({togglePackage}) {
                 </div>
             </div>
             <div className="flex flex-grow justify-center text-white font-bold text-2xl p-2">
-                <div id="honeymoon-tours"
-                    // onClick={toggleHoneyMoonModal}
+                <div id="fishing"
+                    onClick={toggleFishing}
                     className="group flex items-end justify-center flex-grow w-40 max-w-xl max-h-[rem] m-4 rounded-lg shadow hover:scale-90 hover:duration-150 cursor-pointer">
                     <h1 className="group-hover:-translate-y-12 group-hover:duration-300">
                         Fishing Tours
                     </h1>
 
                 </div>
-                <div id="special-packages"
-                    // onClick={toggleSpecialPackagesModal}
+                <div id="cycling"
+                    onClick={toggleCycling}
                     className="group flex items-end justify-center flex-grow w-40 max-w-xl max-h-[rem] m-4 rounded-lg shadow hover:scale-90 hover:duration-150 cursor-pointer">
                     <h1 className="group-hover:-translate-y-12 group-hover:duration-300">
                         Cycling Tours
