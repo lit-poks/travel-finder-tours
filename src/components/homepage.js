@@ -1,12 +1,23 @@
+import { useState } from 'react';
+import { useLockBodyScroll } from "@uidotdev/usehooks";
 import Navbar from "./navbar";
 import whattsapp from '../assets/whattsapp.png'
 import VisionMission from "./homepage_components/vision_mission";
 import IconicDestinations from "./homepage_components/iconic_destinations";
 import Footer from "./footer";
+import FooterModal from './footer_modal';
 
 function Homepage() {
+    const [faqModal, setFaqModal] = useState(true);
+
+    const toggleFaqModal = () => {
+        setFaqModal(!faqModal)
+    }
     return (
         <>
+        {
+            faqModal == false && <FooterModal toggleFaqModal={toggleFaqModal} faqModal={faqModal} />
+        }
             <div className="flex flex-col">
                 <div id="image-container" className="flex flex-col">
                     <Navbar />
@@ -29,7 +40,7 @@ function Homepage() {
             </div>
             <VisionMission />
             <IconicDestinations />
-            <Footer/>
+            <Footer faqModal={faqModal} toggleFaqModal={toggleFaqModal} />
         </>
     )
 }
