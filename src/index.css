@@ -60,6 +60,12 @@ code {
 }
 
 #trekking-tours {
+  background: url('./assets/trekking_new.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+#adventure-packages {
   background: url('./assets/trekking_tours.jpeg');
   background-size: cover;
   background-position: center;

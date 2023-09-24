@@ -15,9 +15,6 @@ function Homepage() {
     }
     return (
         <>
-        {
-            faqModal == false && <FooterModal toggleFaqModal={toggleFaqModal} faqModal={faqModal} />
-        }
             <div className="flex flex-col">
                 <div id="image-container" className="flex flex-col">
                     <Navbar />
@@ -40,7 +37,6 @@ function Homepage() {
             </div>
             <VisionMission />
             <IconicDestinations />
-            <Footer faqModal={faqModal} toggleFaqModal={toggleFaqModal} />
         </>
     )
 }

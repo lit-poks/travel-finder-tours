@@ -48,7 +48,6 @@ function AdventurePackages() {
             {
                 currentPage == 'Cycling' && <CyclingItenaries/>
             }
-            <Footer />
         </>
     )
 }

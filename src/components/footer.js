@@ -1,6 +1,3 @@
-import { useState } from 'react';
-import logo from '../assets/logo.png'
-import FooterModal from './footer_modal';
 
 function Footer({toggleFaqModal}) {
     const handleModalClick = (event) => {

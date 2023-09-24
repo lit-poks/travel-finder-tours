@@ -1,10 +1,13 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import CulturalTourModal from './cultural/cultural_tour_modal';
 import HoneymoonModal from './honeymoon/honeymoon_modal';
 import SpecialPackageModal from './special/special_package_modal';
 import TrekkingAndFishingModal from './trekking/trekking_and_fishing_modal';
 
 function PackageCards({togglePackage}) {
+    const navigate = useNavigate();
+
     const [honeyMoonModal, setHoneyMoonModal] = useState(true);
     const [culturalTourModal, setCulturalTourModal] = useState(true);
     const [trekkingAndFishingModal, setTrekkingAndFishingModal] = useState(true);
@@ -23,6 +26,11 @@ function PackageCards({togglePackage}) {
     const toggleSpecialPackagesModal = () => {
         setSpecialPackagesModal(!specialPackagesModal)
         togglePackage('None', 'None')
+    }
+
+    const toggleAdventureTours = () => {
+        togglePackage('None', 'None')
+        navigate('/adventure')
     }
 
     const toggleHoneyMoonModal = () => {
@@ -47,7 +55,7 @@ function PackageCards({togglePackage}) {
                 onClick={toggleTrekkingAndFishingModal}
                     className="group flex items-end justify-center flex-grow w-40 max-w-xl max-h-[rem] m-4 rounded-lg shadow hover:scale-90 hover:duration-150 cursor-pointer">
                     <h1 className="group-hover:-translate-y-12 group-hover:duration-300">
-                        Adventure Tours
+                        Trekking Tours
                     </h1>
 
                 </div>
@@ -61,11 +69,11 @@ function PackageCards({togglePackage}) {
                     </h1>
 
                 </div>
-                <div id="special-packages"
-                    onClick={toggleSpecialPackagesModal}
+                <div id="adventure-packages"
+                    onClick={toggleAdventureTours}
                     className="group flex items-end justify-center flex-grow w-40 max-w-xl max-h-[rem] m-4 rounded-lg shadow hover:scale-90 hover:duration-150 cursor-pointer">
                     <h1 className="group-hover:-translate-y-12 group-hover:duration-300">
-                        Special packages
+                        Adventure Tours
                     </h1>
 
                 </div>

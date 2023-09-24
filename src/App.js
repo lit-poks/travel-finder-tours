@@ -6,15 +6,25 @@ import Homepage from './components/homepage'
 import TourPackages from './components/packages/tour_packages.js';
 import AdventurePackages from './components/packages/trekking/adventure_packages.js';
 import { inject } from '@vercel/analytics';
- 
+import Footer from './components/footer.js';
+import FooterModal from './components/footer_modal.js';
+import { useState } from 'react';
+
 inject();
 
 
 function App() {
+  const [faqModal, setFaqModal] = useState(true);
+
+  const toggleFaqModal = () => {
+    setFaqModal(!faqModal)
+  }
   return (
     <>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" />
-
+      {
+        faqModal == false && <FooterModal toggleFaqModal={toggleFaqModal} faqModal={faqModal} />
+      }
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/contact-us" element={<ContactUs />} />
@@ -23,6 +33,7 @@ function App() {
         <Route path="/adventure" element={<AdventurePackages />} />
         <Route path="*" element={<Homepage />} />
       </Routes>
+      <Footer faqModal={faqModal} toggleFaqModal={toggleFaqModal} />
     </>
   );
 }

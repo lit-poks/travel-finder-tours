@@ -17,7 +17,7 @@ function RaftingItenaries({}) {
                     <img src={rafting_two} alt="Culltural Tours" className='w-full max-h-[26rem] object-cover object-center' />
                 </div>
                 <div className="flex basis-1/2 justify-center items-center text-xl text-grey-800 p-5 md:mt-5 lg:mt-0 lg:py-0">
-                    Rafting and kayaking in Bhutan offer exhilarating water adventures set against the backdrop of stunning Himalayan landscapes. Bhutan's rivers, including the Paro Chhu, Mo Chhu, Pho Chhu, and Mangde Chhu, provide the ideal canvas for these water sports, each offering unique experiences.<br /><br />
+                    Rafting and kayaking in Bhutan offer exhilarating water adventures set against the backdrop of stunning Himalayan landscapes. Bhutan's rivers, provides the ideal canvas for these water sports, each offering unique experiences.<br /><br />
 
                     Bhutan caters to adventurers of all levels, making it accessible for both beginners and experienced rafters. Whether you seek a leisurely float or challenging rapids, the country's rivers have options to match your skill and comfort levels.<br /><br />
 
@@ -41,7 +41,7 @@ function RaftingItenaries({}) {
                     <img src={rafting_description} alt="Culltural Tours" className='w-full max-h-[26rem] object-cover object-top' />
                 </div>
                 <div className="flex basis-1/2 justify-center items-center text-xl text-grey-800 p-5 md:mt-5 lg:mt-0 lg:py-0">
-                    Safety is paramount when engaging in water sports in Bhutan. Tour operators provide experienced guides who are well-versed in river safety protocols and offer necessary equipment, including life jackets and helmets, to ensure a secure adventure.<br /><br />
+                    Safety is paramount when engaging in water sports in Bhutan. Travel Finder Tours provides experienced guides who are well-versed in river safety protocols and offer necessary equipment, including life jackets and helmets, to ensure a secure adventure.<br /><br />
 
                     Bhutan's commitment to responsible tourism extends to its water sports activities, with tour operators following eco-friendly practices to minimize the environmental impact, ensuring that these adventures can be enjoyed for generations to come.<br /><br />
 
