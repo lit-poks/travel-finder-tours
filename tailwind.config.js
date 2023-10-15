@@ -16,6 +16,9 @@ module.exports = {
         'ora': '#f28704',
         'yel': '#fbca04',
         'tra': '#fcd536'
+      },
+      backgroundImage: {
+        'bridge': "url('/src/assets/bridge_photo.jpeg')"
       }
     },
   },
