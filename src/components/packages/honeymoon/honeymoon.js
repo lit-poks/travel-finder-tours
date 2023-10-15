@@ -339,8 +339,6 @@ function Honeymoon() {
                             </div>
                         </div>
                     </div>
-
-                    <Footer />
                 </div>
             </div>
         </>
