@@ -45,6 +45,9 @@ function Footer({toggleFaqModal}) {
                                         <a href="/packages" className="hover:underline">Packages</a>
                                     </li>
                                     <li className="mb-4">
+                                        <a href="/gallery" className="hover:underline">Gallery</a>
+                                    </li>
+                                    <li className="mb-4">
                                         <a href="/about-us" className="hover:underline">About Us</a>
                                     </li>
                                     <li className="mb-4">

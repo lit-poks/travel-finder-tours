@@ -8,6 +8,7 @@ import AdventurePackages from './components/packages/trekking/adventure_packages
 import { inject } from '@vercel/analytics';
 import Footer from './components/footer.js';
 import FooterModal from './components/footer_modal.js';
+import Gallery from './components/gallery.js';
 import { useState } from 'react';
 
 inject();
@@ -31,6 +32,7 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/packages" element={<TourPackages />} />
         <Route path="/adventure" element={<AdventurePackages />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="*" element={<Homepage />} />
       </Routes>
       <Footer faqModal={faqModal} toggleFaqModal={toggleFaqModal} />
