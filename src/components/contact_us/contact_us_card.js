@@ -27,7 +27,7 @@ function ContactUsCard({ modalHidden, hideModal }) {
                         <div className="w-full md:w-3/5 space-y-8 flex flex-col justify-center items-center space-">
                             <div className="w-full pb-2 flex flex-col justify-center border-b border-neutral-900">
                                 <p className="inline text-gray-700 font-bold mb-2 leading-6 w-full text-center">
-                                    <i className="iconoir-pin-alt mr-2"></i> Address
+                                    <i className="iconoir-map-pin mr-2"></i> Address
                                 </p>
                                 <p className="inline text-gray-700 font-normal leading-6 w-full text-center">
                                     Travel Finder Tours,
@@ -52,12 +52,12 @@ function ContactUsCard({ modalHidden, hideModal }) {
                             </div>
 
                             <div className="w-full pb-2 border-b border-neutral-900">
-                                <a className="flex flex-col justify-center" href="mailto:travelfindertours7@gmail.com" target='_blank'>
+                                <a className="flex flex-col justify-center" href="mailto:info@travelfindertours.com" target='_blank'>
                                     <p className="inline text-gray-700 font-bold mb-2 leading-6 w-full text-center">
                                         <i className="iconoir-send-mail mr-2"></i> Email
                                     </p>
                                     <p className="inline text-gray-700 font-normal leading-6 w-full text-center">
-                                        travelfindertours7@gmail.com
+                                        info@travelfindertours.com
                                     </p>
                                 </a>
                             </div>

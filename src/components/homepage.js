@@ -11,17 +11,17 @@ function Homepage() {
     return (
         <>
             <div className="flex flex-col">
-                <div id="image-container" className="flex flex-col">
+                <div id="homepage-container" className="flex flex-col">
                     <Navbar />
                     <div className='flex lg:flex-grow lg:mt-0 md:mt-40 container mx-auto md:flex-col lg:flex-row'>
                         <div className='flex flex-grow flex-col justify-center lg:items-start mb-24 md:items-center md:mb-6'>
                             <div className="">
                                 <div className="text-6xl text-white">
-                                    <span className="text-ora">Travel </span>
+                                    <span className="text-white">Travel </span>
                                     <span className="text-white">Finder </span>
-                                    <span className="text-ora">Tours </span>
+                                    <span className="text-white">Tours </span>
                                 </div>
-                                <p className="text-3xl text-grey text-center">"Absolute Happiness"</p>
+                                <p className="text-3xl text-white text-center">"Absolute Happiness"</p>
                             </div>
                         </div>
                         <Clock />

@@ -39,6 +39,17 @@ code {
   overflow-y: auto;
 }
 
+#homepage-container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: url('./assets/monks.jpeg');
+  background-size: cover;
+  background-position: center;
+  overflow-y: auto;
+}
+
 #vision-container {
   top: 0;
   left: 0;

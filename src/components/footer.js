@@ -76,7 +76,7 @@ function Footer({toggleFaqModal}) {
                     </div>
                     <hr className="my-6 sm:mx-auto border-gray-500 lg:my-8" />
                     <div className="sm:flex sm:items-center sm:justify-between">
-                        <span className="text-sm sm:text-center text-gray-300">© 2023 <a href="#" className="hover:underline">Travel Finder Tours</a>. All Rights Reserved.
+                        <span className="text-sm sm:text-center text-gray-300">© 2024 <a href="#" className="hover:underline">Travel Finder Tours</a>. All Rights Reserved.
                         </span>
                         <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
                             <a href="https://www.facebook.com/profile.php?id=100088179842340&mibextid=LQQJ4d" target='_blank' className="text-gray-300 hover:text-white">
@@ -104,14 +104,14 @@ function Footer({toggleFaqModal}) {
                     </div>
                     <div className='flex justify-between text-sm text-gray-300'>
                         <div>
-                            <i className="iconoir-pin-alt"></i> Travel Finder Tours, Pink Building, Ground Floor, Lamgong,Paro
+                            <i className="iconoir-map-pin"></i> Travel Finder Tours, Pink Building, Ground Floor, Lamgong,Paro
                         </div>
                         <div>
                             <a className='pr-3' href="tel:+97517937798" target='_blank'>
                                 <i className="iconoir-phone-outcome mr-2"></i> +975-17937798 ||
                             </a>
-                            <a className='' href="mailto:travelfindertours7@gmail.com" target='_blank'>
-                                <i className="iconoir-send-mail mr-2 text-lg"></i> travelfindertours7@gmail.com
+                            <a className='' href="mailto:info@travelfindertours.com" target='_blank'>
+                                <i className="iconoir-send-mail mr-2 text-lg"></i> info@travelfindertours.com
                             </a>
                         </div>
                     </div>
