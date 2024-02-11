@@ -13,15 +13,15 @@ function Homepage() {
             <div className="flex flex-col">
                 <div id="homepage-container" className="flex flex-col">
                     <Navbar />
-                    <div className='flex lg:flex-grow lg:mt-0 md:mt-40 container mx-auto md:flex-col lg:flex-row'>
+                    <div className='flex lg:flex-grow lg:mt-0 md:mt-36 container mx-auto md:flex-col lg:flex-row'>
                         <div className='flex flex-grow flex-col justify-center lg:items-start mb-24 md:items-center md:mb-6'>
                             <div className="">
                                 <div className="text-6xl text-white">
-                                    <span className="text-white">Travel </span>
-                                    <span className="text-white">Finder </span>
-                                    <span className="text-white">Tours </span>
+                                    <span className="lg:text-white sm:text-gre">Travel </span>
+                                    <span className="lg:text-white sm:text-ora">Finder </span>
+                                    <span className="lg:text-white sm:text-gre">Tours </span>
                                 </div>
-                                <p className="text-3xl text-white text-center">"Absolute Happiness"</p>
+                                <p className="text-3xl text-center lg:text-white sm:text-ora">"Absolute Happiness"</p>
                             </div>
                         </div>
                         <Clock />
