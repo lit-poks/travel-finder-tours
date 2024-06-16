@@ -12,7 +12,7 @@ function Clock() {
     return () => clearInterval(intervalId);
   }, [])
     return (
-        <div className="flex flex-grow justify-center lg:items-center md:items-start">
+        <div className="flex flex-grow justify-center hidden lg:mt-72 lg:block lg:items-center md:items-start">
             <div className="relative border-1 rounded shadow-2xl font-mono lg:text-6xl md:text-6xl text-white flex">
                 <div className="relative p-5">
                     <div className="absolute inset-0 grid grid-rows-2">

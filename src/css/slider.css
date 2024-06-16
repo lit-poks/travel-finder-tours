@@ -1,0 +1,77 @@
+@keyframes slideOut {
+  from {
+      transform: translateX(0);
+      opacity: 1;
+  }
+  to {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+}
+
+@keyframes slideIn {
+  from {
+      transform: translateX(100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+.slide-out {
+  animation: slideOut 0.5s forwards;
+}
+
+.slide-in {
+  animation: slideIn 0.5s forwards;
+}
+
+  .homepage-container-0 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url('../assets/dochula_homepage.jpeg');
+    background-size: cover;
+    background-position: center top;
+    overflow-y: auto;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .homepage-container-0 {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background: url('../assets/dochula_homepage.jpeg');
+      background-size: cover;
+      background-position: center top;
+      overflow-y: auto;
+    }
+  }
+
+  .homepage-container-1 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url('../assets/homepage.jpeg');
+    background-size: cover;
+    background-position: right center;
+    overflow-y: auto;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .homepage-container-1 {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background: url('../assets/mobile_homepage.jpeg');
+      background-size: cover;
+      background-position: right center;
+      overflow-y: auto;
+    }
+  }

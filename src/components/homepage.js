@@ -1,40 +1,67 @@
-import { useState } from 'react';
+import { lazy, useState } from 'react';
+import { useEffect } from 'react';
+import { Suspense } from 'react';
 import Navbar from "./navbar";
 import whattsapp from '../assets/whattsapp.png'
 import VisionMission from "./homepage_components/vision_mission";
-import IconicDestinations from "./homepage_components/iconic_destinations";
 import Footer from "./footer";
 import FooterModal from './footer_modal';
 import Clock from './clock';
 
+const IconicDestinations = lazy(() => import("./homepage_components/iconic_destinations"));
+
 function Homepage() {
+    const [showSlider, setShowSlider] = useState(0);
+    const [animationClass, setAnimationClass] = useState('');
+
+    useEffect(() => {
+        const timeout = setTimeout(() => {
+            // Start the slide-out animation
+            setAnimationClass('slide-out-left');
+            
+            // After the slide-out animation, switch the class and start the slide-in animation
+            setTimeout(() => {
+                setShowSlider((prev) => (prev + 1) % 2);
+                setAnimationClass('slide-in-right');
+
+                // Remove the animation class after the slide-in animation completes
+                setTimeout(() => {
+                    setAnimationClass('');
+                }, 1000); // Duration of slide-in animation
+            }, 1000); // Duration of slide-out animation
+        }, 10000); // Time between slides
+
+        return () => clearTimeout(timeout);
+    }, [showSlider]);
+
     return (
         <>
-            <div className="flex flex-col">
-                <div id="homepage-container" className="flex flex-col">
+            <div className="">
+                <div id="holo" className={`homepage-container-${showSlider} flex flex-col ${animationClass}`}>
                     <Navbar />
-                    <div className='flex lg:flex-grow lg:mt-0 md:mt-36 container mx-auto md:flex-col lg:flex-row'>
-                        <div className='flex flex-grow flex-col justify-center lg:items-start mb-24 md:items-center md:mb-6'>
-                            <div className="">
-                                <div className="text-6xl text-white">
-                                    <span className="lg:text-white sm:text-gre">Travel </span>
-                                    <span className="lg:text-white sm:text-ora">Finder </span>
-                                    <span className="lg:text-white sm:text-gre">Tours </span>
-                                </div>
-                                <p className="text-3xl text-center lg:text-white sm:text-ora">"Absolute Happiness"</p>
-                            </div>
-                        </div>
-                        <Clock />
-                        <a href="https://wa.me/+97517937798" target="_blank">
-                            <img className="animate-pulse absolute bottom-10 right-10 h-16 rounded-full hover:scale-110 hover:animate-none" src={whattsapp} alt="Travel Finder Tours Whatts App" />
-                        </a>
-                    </div>
                 </div>
+
+                <a href="https://wa.me/+97517937798" target="_blank">
+                    <img className="animate-pulse absolute bottom-10 right-10 h-16 rounded-full hover:scale-110 hover:animate-none" src={whattsapp} alt="Travel Finder Tours Whatts App" />
+                </a>
             </div>
-            <VisionMission />
-            <IconicDestinations />
+            {/* <VisionMission /> */}
+            <IconicDestinations/>
         </>
     )
 }
 
 export default Homepage;
+
+// Code for Text in the main image
+{/* <div className='flex flex-grow flex-col justify-center lg:items-start mb-24 md:items-center md:mb-6'>
+                            <div className="md:">
+                                <div className="text-6xl text-white md:mt-[430px] md:pl-12 lg:pl-20 lg:mt-48 xl:mt-80">
+                                    <span className="lg:text-gre md:text-gre">Travel </span>
+                                    <span className="lg:text-ora md:text-ora">Finder </span>
+                                    <span className="lg:text-gre md:text-gre">Tours </span>
+                                </div>
+                                <p className="text-3xl text-center lg:text-gre sm:text-gre">"Absolute Happiness"</p>
+                            </div>
+                        </div>
+                        <Clock /> */}
