@@ -1,5 +1,6 @@
 import Navbar from "../navbar";
 import ContactUsCard from "./contact_us_card";
+import ContactInUsCard from "./contact_in_us_card";
 import whattsapp from '../../assets/whattsapp.png';
 import MapModal from "./map_modal";
 import { useState } from 'react';
@@ -14,17 +15,15 @@ function ContactUs() {
 
     return (
         <>
-            <div id="image-container" className='flex flex-col'>
+            <div id="image-container" className='flex flex-col '>
                 <Navbar />
-                <div className='mx-auto flex-grow md:container'>
-                    <div className="flex md:flex-row md:justify-center md:items-center lg:flex-row-reverse lg:justify-start h-full">
-                        <div className="pt-4 md:pt-0 flex justify-center items-center">
+                <div className='flex-grow flex flex-col lg:flex-row justify-evenly items-center'>
+                        <div className="pt-4 lg:p-2 md:pt-0 flex justify-center items-center">
                             <ContactUsCard modalHidden={modelHidden} hideModal={hideModal}/>
                         </div>
-                    </div>
-                    <a href="https://wa.me/+97517937798" target="_blank">
-                        <img className="animate-pulse absolute bottom-8 left-8 h-12 rounded-full hover:scale-110 hover:animate-none" src={whattsapp} alt="Travel Finder Tours Whatts App" />
-                    </a>
+                        <div className="pt-4 p-2 md:pt-0 flex justify-center items-center">
+                            <ContactInUsCard/>
+                        </div>
                 </div>
                 < MapModal modalHidden={modelHidden} hideModal={hideModal}/>
             </div>
