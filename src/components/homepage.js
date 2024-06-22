@@ -2,7 +2,7 @@ import { lazy, useState } from 'react';
 import { useEffect } from 'react';
 import { Suspense } from 'react';
 import Navbar from "./navbar";
-import whattsapp from '../assets/whattsapp.png'
+import HoveringButton from './hovering_button';
 import VisionMission from "./homepage_components/vision_mission";
 import Footer from "./footer";
 import FooterModal from './footer_modal';
@@ -41,9 +41,7 @@ function Homepage() {
                     <Navbar />
                 </div>
 
-                <a href="https://wa.me/+97517937798" target="_blank">
-                    <img className="animate-pulse absolute bottom-10 right-10 h-16 rounded-full hover:scale-110 hover:animate-none" src={whattsapp} alt="Travel Finder Tours Whatts App" />
-                </a>
+                < HoveringButton />
             </div>
             {/* <VisionMission /> */}
             <IconicDestinations/>

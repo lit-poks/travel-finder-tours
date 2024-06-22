@@ -1,6 +1,6 @@
 import Navbar from "../../navbar";
 import Footer from "../../footer";
-import whattsapp from '../../../assets/whattsapp.png'
+import HoveringButton from '../../hovering_button';
 import AdventureCards from "./adventure_cards";
 import { useEffect, useState } from "react";
 import RaftingItenaries from "./rafting_itenaries";
@@ -32,9 +32,7 @@ function AdventurePackages() {
                 <div className="flex flex-col flex-grow">
                     <AdventureCards togglePackage={togglePackage}/>
                 </div>
-                <a href="https://wa.me/+97517937798" target="_blank">
-                    <img className="animate-pulse absolute bottom-10 right-10 h-16 rounded-full hover:scale-110 hover:animate-none" src={whattsapp} alt="Travel Finder Tours Whatts App" />
-                </a>
+                < HoveringButton />
             </div>
             {
                 currentPage == 'Rafting' && <RaftingItenaries/>

@@ -1,0 +1,59 @@
+/* App.css */
+.test-container {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+  }
+  
+  .main-button {
+    position: relative;
+  }
+  
+  .main-button a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #fcd536;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all ease 300ms;
+  }
+
+  .main-button a:hover {
+    background-color: #fcd536;
+    color: white;
+  }
+  
+  .expandable-buttons {
+    position: absolute;
+    bottom: 60px; /* Adjust based on button size */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .expandable-buttons a {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    padding-top: 12px;
+    margin-top: 8px;
+  }
+  
+  .show-buttons {
+    opacity: 1;
+    visibility: visible;
+  }
+  
