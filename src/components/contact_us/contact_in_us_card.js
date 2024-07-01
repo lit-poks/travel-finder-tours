@@ -42,12 +42,13 @@ function ContactInUsCard() {
 
                             </div>
                             <div className="w-full pb-2 border-b border-neutral-900">
-                                <a className="flex flex-col justify-center" href="tel:+97517937798" target='_blank'>
+                                <a className="flex flex-col justify-center" href="tel:+18032902051" target='_blank'>
                                     <p className="inline text-gray-700 font-bold mb-2 leading-6 w-full text-center">
                                         <i className="iconoir-phone-outcome mr-2"></i> Contact
                                     </p>
                                     <p className="inline text-gray-700 font-normal leading-6 w-full text-center">
-                                        +1(803) 458-8764
+                                        +1(803) 290-2051<br/>
+                                        <strong>Deepak Das</strong>
                                     </p>
                                 </a>
                             </div>

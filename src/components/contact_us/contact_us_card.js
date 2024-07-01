@@ -48,7 +48,8 @@ function ContactUsCard({ modalHidden, hideModal }) {
                                         <i className="iconoir-phone-outcome mr-2"></i> Contact
                                     </p>
                                     <p className="inline text-gray-700 font-normal leading-6 w-full text-center">
-                                        +97517937798
+                                        +975-17937798<br/>
+                                        <strong>Vijay Darjee</strong>
                                     </p>
                                 </a>
                             </div>
