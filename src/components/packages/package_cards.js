@@ -37,6 +37,10 @@ function PackageCards({togglePackage}) {
         // setHoneyMoonModal(!honeyMoonModal)
         togglePackage('Honeymoon', 'honeymoon-container')
     }
+
+    const toggleluxuryTours = () => {
+        togglePackage('Luxury', 'luxury-container')
+    }
     return (
         <>
         <HoneymoonModal honeyMoonModal={honeyMoonModal} toggleHoneyMoonModal={toggleHoneyMoonModal} />
@@ -69,11 +73,11 @@ function PackageCards({togglePackage}) {
                     </h1>
 
                 </div>
-                <div id="adventure-packages"
-                    onClick={toggleAdventureTours}
+                <div id="luxury-packages"
+                    onClick={toggleluxuryTours}
                     className="group flex items-end justify-center flex-grow w-40 max-w-xl max-h-[rem] m-4 rounded-lg shadow hover:scale-90 hover:duration-150 cursor-pointer">
                     <h1 className="group-hover:-translate-y-12 group-hover:duration-300">
-                        Adventure Tours
+                        Luxury Tours
                     </h1>
 
                 </div>

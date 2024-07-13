@@ -5,6 +5,7 @@ import HoveringButton from '../hovering_button';
 import CulturalItenaries from "./cultural/cultural_itenaries";
 import AdventureIteneries from "./trekking/adventure_iteneries";
 import Honeymoon from "./honeymoon/honeymoon";
+import Luxury from "./luxury/luxury_tours";
 
 
 function TourPackages() {
@@ -40,6 +41,9 @@ function TourPackages() {
             }
             {
                 currentPage == 'Honeymoon' && <Honeymoon />
+            }
+            {
+                currentPage == 'Luxury' && <Luxury />
             }
         </>
     )
